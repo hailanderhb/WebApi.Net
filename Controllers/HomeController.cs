@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shop.Data;
 using Shop.Models;
 
-namespace Backoffice.Controllers
+namespace Shop.Controllers
 {
     [Route("v1")] //utilizando um get no /v1 realiza esta configuração inicial
     public class HomeController : Controller
